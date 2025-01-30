@@ -1,0 +1,1 @@
+This repository demonstrates an integer overflow bug in a simple Javascript addition function and provides a solution. The original function lacks error handling and can produce unexpected results for large inputs. The solution addresses this by adding input validation and error handling.
