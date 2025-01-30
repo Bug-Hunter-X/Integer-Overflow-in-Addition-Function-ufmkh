@@ -1,0 +1,1 @@
+function add(a, b) {  if (typeof a !== 'number' || typeof b !== 'number') {    throw new Error('Inputs must be numbers');  }  const sum = a + b;  if (!Number.isSafeInteger(sum)) {    throw new Error('Integer overflow');  }  return sum;} 
